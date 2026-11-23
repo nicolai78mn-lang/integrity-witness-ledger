@@ -25,4 +25,4 @@ No raw private state, and no salt/secret/nonce that would make low-entropy priva
 5. Never claim a GitHub commit alone provides tamperproof or irreversible writes: maintainers can change security rules and fast-forward new history with invalid content.
 6. Establish a separate trusted checkpoint or monitor and verify restart, loss and rollback scenarios before using this repository to authorize real actions.
 
-Status: documentation only. No witness records. No real AURA agent execution.
+Status: documentation only. No witness records. No real external execution.
